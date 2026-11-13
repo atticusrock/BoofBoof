@@ -4,7 +4,7 @@
 
 > **Free to download. No subscription, account, cloud history, or sync.** Clipboard history stays on this Mac.
 
-[Download Boof Boof](docs/downloads/BoofBoof.dmg) · [Product page](docs/index.html)
+[Download Boof Boof](https://github.com/atticusrock/BoofBoof/releases/download/v1.0.1/BoofBoof-1.0.1.dmg) · [Product page](docs/index.html)
 
 ![Boof Boof app icon](docs/assets/boof-icon.png)
 
@@ -12,6 +12,7 @@
 
 - Keeps a local history of copied plain text, web links, and supported images.
 - Opens from the macOS menu bar; there is no separate main history window.
+- The popover grows from one to ten visible history entries, then scrolls.
 - Search text and links, then click an entry to put it back on the system clipboard.
 - Pin useful entries, remove individual items, clear unpinned entries, or clear all history.
 - Pause and resume clipboard capture at any time.
@@ -42,13 +43,13 @@ Animated GIF, SVG, PDF, video, arbitrary files, rich-text fidelity, and arbitrar
 
 ## Install
 
-1. Download `BoofBoof.dmg` from the link above.
+1. Download `BoofBoof-1.0.1.dmg` from the [latest GitHub release](https://github.com/atticusrock/BoofBoof/releases/latest).
 2. Open the disk image and drag **Boof Boof.app** into **Applications**.
 3. Eject the disk image and launch Boof Boof from Applications.
 
 ### First-launch security notice
 
-The currently prepared build is ad-hoc signed and has not been notarized by Apple. Gatekeeper may show a warning when the downloaded app is opened. This is a personal distribution build, not an Apple-notarized release. For a smoother public installation, the app should be signed with a Developer ID certificate and notarized before the release is published.
+The currently prepared build is ad-hoc signed and has not been notarized by Apple. Gatekeeper may show a warning when the downloaded app is opened. This is a personal distribution build, not an Apple-notarized release. A Developer ID-signed and notarized build would avoid this warning; this release is not notarized.
 
 ## Technical notes
 
