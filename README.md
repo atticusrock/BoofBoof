@@ -1,25 +1,31 @@
 # Boof Boof
 
-**A free clipboard history for macOS.** Keep copied text, links, and images close at hand in a small menu bar popover.
+**A free clipboard history for macOS.** Keep copied text, links, images, and files close at hand in a small menu bar popover.
 
 > **Free to download. No subscription, account, cloud history, or sync.** Clipboard history stays on this Mac.
 
-[Download Boof Boof](https://github.com/atticusrock/BoofBoof/releases/download/v1.0.4/BoofBoof-1.0.4.dmg) · [Product page](docs/index.html)
+[Download Boof Boof](https://github.com/atticusrock/BoofBoof/releases/download/v1.1.0/BoofBoof-1.1.0.dmg) · [Product page](docs/index.html)
 
 ![Boof Boof app icon](docs/assets/boof-icon.png)
 
 ## What it does
 
-- Keeps a local history of copied plain text, web links, and supported images.
+- Keeps a local history of copied plain text, web links, supported images, and single files.
 - Opens from the macOS menu bar; there is no separate main history window.
 - The popover grows from one to ten visible history entries, then scrolls.
 - URL cards highlight links: click the URL to open it in your browser, or click elsewhere on the card to copy it.
 - Settings includes an About tab with version and developer email, plus a Launch at Login option.
-- Search text and links, then click an entry to put it back on the system clipboard.
+- Search text, links, and filenames, then click an entry to put it back on the system clipboard.
 - Pin useful entries, remove individual items, clear unpinned entries, or clear all history.
 - Pause and resume clipboard capture at any time.
 - Optionally launch Boof Boof when you sign in to your Mac. macOS may ask you to approve it in Login Items.
 - Choose a history limit of 50, 100, 250, or 500 unpinned entries and a retention period of 10, 30, 90, or 365 days, or indefinitely. Pinned entries are excluded from these count and age limits.
+
+## Quick Switcher
+
+In **Settings → History Access**, select **Quick Switcher**. Press **Control–Shift–V** to open the panel and press the same shortcut again to cycle through items. Arrow keys also move the selection. Press **Return** to restore the selected item, then **Command–V** to paste in the previous app. **Escape** closes the panel. The shortcut can be changed in Settings.
+
+Quick Switcher shows text excerpts, link domains, and image or media thumbnails when available on macOS. File cards show the filename and fall back to file details if a thumbnail is unavailable.
 
 ## Images
 
@@ -27,11 +33,15 @@ Boof Boof can save and restore PNG, JPEG, HEIC, WebP, and TIFF images copied fro
 
 Image limits are **10 MiB per image**, **100 MiB total image storage**, and **40 megapixels per image**. Images that exceed a limit or cannot be safely decoded are skipped. Supported image payloads are restored to the system clipboard as images, ready to paste.
 
-Animated GIF, SVG, PDF, video, arbitrary files, rich-text fidelity, and arbitrary clipboard formats are not supported in this release.
+## Files
+
+Copy a single regular file in Finder to keep a local copy under its original name. Restore the entry and press **Command–V** in Finder or another app that accepts file clipboard items. The original file can be moved or deleted after capture.
+
+The limits are **50 MiB per regular file**, **100 MiB per video**, and **500 MiB combined** including pinned files. Supported Finder images continue to use the image path and limits above. Multi-file selections, folders, and cloud placeholders that have not been downloaded are outside this release's scope.
 
 ## Privacy and storage
 
-- History is stored locally under `~/Library/Application Support/BoofBoof/` (`history.json` plus an `Images` folder when needed).
+- History is stored locally under `~/Library/Application Support/BoofBoof/` (`history.json` plus `Images` and `Files` folders when needed).
 - The app does not upload, sync, or send clipboard history to a server.
 - No account, analytics service, cloud database, or background sync is included.
 - The local history is **not separately encrypted**. Protect your macOS account and use FileVault if you want disk encryption.
@@ -46,7 +56,7 @@ Animated GIF, SVG, PDF, video, arbitrary files, rich-text fidelity, and arbitrar
 
 ## Install
 
-1. Download `BoofBoof-1.0.4.dmg` from the [latest GitHub release](https://github.com/atticusrock/BoofBoof/releases/latest).
+1. Download `BoofBoof-1.1.0.dmg` from the [latest GitHub release](https://github.com/atticusrock/BoofBoof/releases/latest).
 2. Open the disk image and drag **Boof Boof.app** into **Applications**.
 3. Eject the disk image and launch Boof Boof from Applications.
 
