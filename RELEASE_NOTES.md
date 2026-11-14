@@ -1,8 +1,8 @@
-# Boof Boof 1.0.2 (build 3)
+# Boof Boof 1.0.3 (build 4)
 
-- URL entries are highlighted as links and open in your browser when clicked. Clicking elsewhere in the card copies the URL.
-- Added an About tab with version, build date, and developer contact email.
-- Added a Launch at Login setting using macOS Login Items. If macOS requires approval, Settings can open the Login Items panel.
+- Fixed restoring saved clipboard items when clicking their cards.
+- URL links remain clickable and open in the browser; clicking the rest of a URL card copies the link to the clipboard.
+- Includes the About tab and Launch at Login setting.
 - Universal macOS build for Intel (`x86_64`) and Apple Silicon (`arm64`).
 
 Clipboard history remains local to this Mac. This build is ad-hoc signed and not notarized by Apple; macOS may show a security warning on first launch.
