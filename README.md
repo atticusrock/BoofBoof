@@ -4,7 +4,7 @@
 
 > **Free to download. No subscription, account, cloud history, or sync.** Clipboard history stays on this Mac.
 
-[Download Boof Boof](https://github.com/atticusrock/BoofBoof/releases/download/v1.0.3/BoofBoof-1.0.3.dmg) · [Product page](docs/index.html)
+[Download Boof Boof](https://github.com/atticusrock/BoofBoof/releases/download/v1.0.4/BoofBoof-1.0.4.dmg) · [Product page](docs/index.html)
 
 ![Boof Boof app icon](docs/assets/boof-icon.png)
 
@@ -14,7 +14,7 @@
 - Opens from the macOS menu bar; there is no separate main history window.
 - The popover grows from one to ten visible history entries, then scrolls.
 - URL cards highlight links: click the URL to open it in your browser, or click elsewhere on the card to copy it.
-- Settings includes an About tab with version, build date, and developer email, plus a Launch at Login option.
+- Settings includes an About tab with version and developer email, plus a Launch at Login option.
 - Search text and links, then click an entry to put it back on the system clipboard.
 - Pin useful entries, remove individual items, clear unpinned entries, or clear all history.
 - Pause and resume clipboard capture at any time.
@@ -46,7 +46,7 @@ Animated GIF, SVG, PDF, video, arbitrary files, rich-text fidelity, and arbitrar
 
 ## Install
 
-1. Download `BoofBoof-1.0.3.dmg` from the [latest GitHub release](https://github.com/atticusrock/BoofBoof/releases/latest).
+1. Download `BoofBoof-1.0.4.dmg` from the [latest GitHub release](https://github.com/atticusrock/BoofBoof/releases/latest).
 2. Open the disk image and drag **Boof Boof.app** into **Applications**.
 3. Eject the disk image and launch Boof Boof from Applications.
 
