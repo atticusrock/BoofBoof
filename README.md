@@ -4,7 +4,7 @@
 
 > **Free to download. No subscription, account, cloud history, or sync.** Clipboard history stays on this Mac.
 
-[Download Boof Boof](https://github.com/atticusrock/BoofBoof/releases/download/v1.0.2/BoofBoof-1.0.2.dmg) · [Product page](docs/index.html)
+[Download Boof Boof](https://github.com/atticusrock/BoofBoof/releases/download/v1.0.3/BoofBoof-1.0.3.dmg) · [Product page](docs/index.html)
 
 ![Boof Boof app icon](docs/assets/boof-icon.png)
 
@@ -46,7 +46,7 @@ Animated GIF, SVG, PDF, video, arbitrary files, rich-text fidelity, and arbitrar
 
 ## Install
 
-1. Download `BoofBoof-1.0.2.dmg` from the [latest GitHub release](https://github.com/atticusrock/BoofBoof/releases/latest).
+1. Download `BoofBoof-1.0.3.dmg` from the [latest GitHub release](https://github.com/atticusrock/BoofBoof/releases/latest).
 2. Open the disk image and drag **Boof Boof.app** into **Applications**.
 3. Eject the disk image and launch Boof Boof from Applications.
 
