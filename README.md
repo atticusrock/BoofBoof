@@ -4,7 +4,7 @@
 
 > **Free to download. No subscription, account, cloud history, or sync.** Clipboard history stays on this Mac.
 
-[Download Boof Boof](https://github.com/atticusrock/BoofBoof/releases/download/v1.1.1/BoofBoof-1.1.1.dmg) · [Product page](docs/index.html)
+[Download Boof Boof](https://github.com/atticusrock/BoofBoof/releases/download/v1.1.2/BoofBoof-1.1.2.dmg) · [Product page](docs/index.html)
 
 ![Boof Boof app icon](docs/assets/boof-icon.png)
 
@@ -56,7 +56,7 @@ The limits are **50 MiB per regular file**, **100 MiB per video**, and **500 MiB
 
 ## Install
 
-1. Download `BoofBoof-1.1.1.dmg` from the [latest GitHub release](https://github.com/atticusrock/BoofBoof/releases/latest).
+1. Download `BoofBoof-1.1.2.dmg` from the [latest GitHub release](https://github.com/atticusrock/BoofBoof/releases/latest).
 2. If Boof Boof is already running, quit it. Open the disk image, drag **BoofBoof.app** into **Applications**, and choose **Replace** if prompted.
 3. Eject the disk image and launch Boof Boof from Applications.
 
